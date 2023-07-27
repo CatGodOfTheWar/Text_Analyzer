@@ -1,4 +1,4 @@
-A simple file analyzer for txt file for: <br>
+A simple file analyzer for txt file: <br>
 1. words <br>
 2. phrases <br>
 3. CNP <br>

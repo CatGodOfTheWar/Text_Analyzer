@@ -110,8 +110,7 @@ def select_file():
     global data
     filetypes = (('text file', '.txt'), ('All files', '*.*'))
 
-    content = fd.askopenfile(title='Open files', initialdir='/home/catwarrior/Documents/Proiecte_Facultate_Python'
-                                                            '/Proiecte_de_tip_C/Text_Analyzer', filetypes=filetypes)
+    content = fd.askopenfile(title='Open files', initialdir='/', filetypes=filetypes)
     data = content.read()
 
 
